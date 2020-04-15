@@ -1,0 +1,83 @@
+
+header{
+	background-image: url(../images/body.jpg);
+	width:100%; 
+	height:400px;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	text-align:center;
+	padding-bottom:20px;
+	
+	
+}
+header.cult{
+	background-image: url(../images/cult.jpg);
+
+}
+header.l{
+	background-image: url(../images/l.jpg);
+}
+h1.Title1{
+	font-size: 58px;
+	color:white;
+}
+h3:first-child{
+	font-weight:bold; 
+	font-size: 2em;
+	color: white;
+	text-shadow:1px 3px 8px rgba(0,0,0,0.4);   
+    border-radius: 30px;  
+	box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+	background: -webkit-linear-gradient(45deg,#00FF7F 40%,#6495ED  100%);
+
+
+}
+h3 a:hover{
+	color:white;
+}
+
+	
+div.présentation{
+	margin: 40px;
+    width:50%
+	text-align : center;
+	background-repeat: repeat-y;
+    background-size: 100%;
+	box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.4);
+	font-size: 20px;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); 
+	color:black;
+	font-style:italic;
+	
+}
+
+img{
+	width: 300px   ;
+	height: 187px  ;
+	padding:5px;
+	padding-left:200px;
+}
+img[alt="h"]{
+	width:500px;
+	height:300px;
+	padding-left:400px;
+	
+}
+
+@media (max-width:1000px){
+
+	header{
+		width:260px;
+		padding:0px;
+	}
+	h1.Title1{
+	padding-top:20px;
+	}
+	div.img img{
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+}	
+
